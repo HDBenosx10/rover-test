@@ -1,1 +1,3 @@
-console.log('Hello project rover');
+import { main } from './main';
+
+main();

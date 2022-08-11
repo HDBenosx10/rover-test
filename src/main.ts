@@ -18,7 +18,6 @@ export function main() {
       grid,
     ).start();
   });
-
   return roversCordinates.join('\n');
 }
 

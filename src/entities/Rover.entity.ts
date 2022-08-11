@@ -51,8 +51,6 @@ export class Rover extends AxisEntity {
       case 'L':
         this.facing = this.grid.previousCardinal(this.facing);
         break;
-      default:
-        throw new Error('Invalid direction');
     }
   }
 
